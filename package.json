@@ -1,0 +1,32 @@
+{
+  "name": "protractor-screenshot-plugin",
+  "version": "0.0.1",
+  "description": "Protractor plugin that takes a screenshot after the test failed",
+  "main": "index.js",
+  "scripts": {
+    "start": "httpster -d testapp/ -p 8081"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lcmtwn/protractor-screenshot-plugin.git"
+  },
+  "keywords": [
+    "protractor",
+    "protractor-plugin",
+    "test",
+    "testing",
+    "webdriver",
+    "webdriverjs",
+    "selenium"
+  ],
+  "author": "Chien-Ming Lai <lcmtwn@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lcmtwn/protractor-screenshot-plugin/issues"
+  },
+  "homepage": "https://github.com/lcmtwn/protractor-screenshot-plugin",
+  "devDependencies": {
+    "httpster": "^1.0.3",
+    "protractor": "^3.2.2"
+  }
+}
