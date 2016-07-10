@@ -12,7 +12,7 @@ exports.config = {
     folder: 'screenshots',           {Default - 'screenshots'}
 
     // take a screenshot after each test executed
-    takeOnAllCases: {Boolean}        {Default - false)
+    takeOnAllCases: {Boolean}        {Default - false}
  }]
 };
 
