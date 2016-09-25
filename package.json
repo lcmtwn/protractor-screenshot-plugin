@@ -4,7 +4,8 @@
   "description": "Protractor plugin that takes a screenshot after the test failed",
   "main": "index.js",
   "scripts": {
-    "start": "httpster -d testapp/ -p 8081"
+    "start-httpster": "httpster -d testapp/ -p 8081",
+    "start-webdriver": "webdriver-manager start"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,6 @@
   "homepage": "https://github.com/lcmtwn/protractor-screenshot-plugin",
   "devDependencies": {
     "httpster": "^1.0.3",
-    "protractor": "^3.2.2"
+    "protractor": "^4.0.9"
   }
 }
