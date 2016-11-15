@@ -14,7 +14,7 @@ var path = require('path');
  *     // Screenshots will be saved in this folder
  *     folder: 'screenshots',           {Default - 'screenshots'}
  *
- *     takeOnAllCases: {Boolean}        {Default - false)
+ *     takeOnAllCases: {Boolean}        {Default - false}
  *   }]
  * };
  */
