@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start-httpster": "httpster -d testapp/ -p 8081",
+    "update-webdriver": "webdriver-manager update",
     "start-webdriver": "webdriver-manager start"
   },
   "repository": {
@@ -28,6 +29,6 @@
   "homepage": "https://github.com/lcmtwn/protractor-screenshot-plugin",
   "devDependencies": {
     "httpster": "^1.0.3",
-    "protractor": "^4.0.9"
+    "protractor": "^5.1.2"
   }
 }
