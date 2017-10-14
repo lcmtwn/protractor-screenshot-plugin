@@ -1,6 +1,6 @@
 {
   "name": "protractor-screenshot-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description":
     "Protractor plugin that takes a screenshot after the test failed or executed",
   "main": "index.js",
