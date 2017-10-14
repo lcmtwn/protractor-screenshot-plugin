@@ -1,7 +1,8 @@
 {
   "name": "protractor-screenshot-plugin",
   "version": "0.0.1",
-  "description": "Protractor plugin that takes a screenshot after the test failed",
+  "description":
+    "Protractor plugin that takes a screenshot after the test failed or executed",
   "main": "index.js",
   "scripts": {
     "start-httpster": "httpster -d testapp/ -p 8081",
@@ -14,10 +15,9 @@
   "keywords": [
     "protractor",
     "protractor-plugin",
-    "test",
+    "screenshot",
     "testing",
     "webdriver",
-    "webdriverjs",
     "selenium"
   ],
   "author": "Chien-Ming Lai <lcmtwn@gmail.com>",
