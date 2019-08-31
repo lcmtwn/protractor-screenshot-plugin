@@ -24,7 +24,7 @@ var ScreenshotPlugin = function() {
 ScreenshotPlugin.prototype.setup = function() {
   try {
     var folder = (this.config.folder === undefined) ? 'screenshots' : this.config.folder;
-    fs.mkdirSync(folder);
+    fs.mkdirSync(folder, {recursive: true});
   } catch (e) {
     if (e.code !== 'EEXIST') {
       throw e;
